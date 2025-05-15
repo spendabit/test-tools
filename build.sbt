@@ -2,7 +2,7 @@
 ThisBuild / organization := "co.spendabit"
 ThisBuild / scalaVersion := "2.12.18"
 // ThisBuild / crossScalaVersions := Seq("2.12.18")
-ThisBuild / version := "0.2.1"
+ThisBuild / version := "0.3.0"
 
 lazy val testTools = project.in(file("."))
   .settings(
